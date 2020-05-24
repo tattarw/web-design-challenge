@@ -47,62 +47,54 @@
 	</div>
     <!-- End of navbar -->
 ​
-  <!-- Start of container -->
+    <!-- Start of container -->
     <div class="container">
       <section class="row">
-        <div class="col-lg-7 col-md-12">
+        <div>
           <div class="description-content">
-            <h1 class="description-header">Summary: Latitude vs. X</h1>
+            <h1 class="description-header">Comparison: Latitude vs X</h1>
             <hr>
-            <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature" width="200px", height="200px" class="description-image">
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+			<p>Click any plot to get an in-depth analysis.</p>
+            <div class="container" style="padding-bottom: 40px;">
+			  <div class="row">
+				<div class="col-lg-6" style="padding: 20px;">
+				  <div class="imageNav-header">vs. Max Temperature</div>
+                  <a href="temp.html">
+				    <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" width="600px", height="400px", title="Latitude vs. Max Temperature" class="imageNav-photo">
+				  </a>
+				</div>
+				<div class="col-lg-6" style="padding: 20px;">
+				  <div class="imageNav-header">vs. Max Humidity</div>
+                  <a href="humidity.html">
+				    <img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" width="600px", height="400px", title="Latitude vs. Humidity" class="imageNav-photo">
+			      </a>
+				</div>
+				<div class="col-lg-6" style="padding: 20px;">
+				  <div class="imageNav-header">vs. Cloudiness</div>
+                  <a href="cloudiness.html">
+				    <img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" width="600px", height="400px", title="Latitude vs. Cloudiness", class="imageNav-photo">
+				  </a>
+				</div>
+				<div class="col-lg-6" style="padding: 20px;">
+				  <div class="imageNav-header">vs. Wind Speed</div>
+                  <a href="wind.html">
+				    <img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" width="600px", height="400px", title="Latitude vs. Wind Speed", class="imageNav-photo">
+				  </a>
+				</div>
+              </div>
+			</div>
           </div>
-        </div>
-        <div class="col-lg-5 col-md-12">
-​
-          <!-- Start of Visualizations imageNav Area -->
-          <section id="imageNav-area">
-            <div class="imageNav-content">
-              <h2 class="imageNav-header">Visualizations</h2>
-              <hr />
-              <div class="container">
-			    <div class="row">
-				  <div class="col-6">
-                    <a href="temp.html">
-				      <img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature" width="200px", height="200px", title="Latitude vs. Temperature" class="imageNav-photo">
-				    </a>
-				  </div>
-				  <div class="col-6">
-                    <a href="humidity.html">
-				      <img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" width="200px", height="200px", title="Latitude vs. Humidity" class="imageNav-photo">
-			        </a>
-                    </div>
-				  <div class="col-6">
-                    <a href="cloudiness.html">
-				      <img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" width="200px", height="200px", title="Latitude vs. Cloudiness", class="imageNav-photo">
-				    </a>
-				  </div>
-				  <div class="col-6">
-                    <a href="wind.html">
-				      <img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" width="200px", height="200px", title="Latitude vs. Wind Speed", class="imageNav-photo">
-				    </a>
-				  </div>
-                </div>
-			  </div>
-            </div>
-          </section>
-          <!-- End of the Visualizations imageNav Area -->
-​
+
         </div>
       </section>
     </div>
     <!-- End of container -->
+​
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
-​
+
 </html>
